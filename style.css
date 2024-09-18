@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #1e1e1e;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+#main-title {
+    color: #e53935;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #e53935;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d32f2f;
+    color: #e0e0e0;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+#messages {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #e0e0e0;
+    border: 1px solid #333;
+    padding: 10px;
+    height: 100px;
+    overflow-y: scroll;
+    background-color: #252525;
+    border-radius: 5px;
+}
+
+#username,
+#input-message {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    transition: border-color 0.3s ease;
+}
+
+#input-message:focus,
+#username:focus {
+    border-color: #e53935;
+    outline: none;
+}
